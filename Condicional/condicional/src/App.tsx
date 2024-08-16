@@ -5,14 +5,16 @@ import './App.css';
 interface Item {
   id: number;
   name: string;
+  price: number;
+  quantity: number;
 }
 
 // Componente de Lista que renderiza itens com base em uma condição
 const ItemList: React.FC = () => {
 const [items, setItems] = useState<Item[]>([
-  { id: 1, name: 'Apple' },
-  { id: 2, name: 'Banana' },
-  { id: 3, name: 'Cherry' },
+  { id: 1, name: 'Apple', price:2000, quantity: 100 },
+  { id: 2, name: 'Banana', price:6000, quantity: 200 },
+  { id: 3, name: 'Cherry', price:4000, quantity: 300 },
 ]);
 
 const [showItems, setShowItems] = useState<boolean>(true);
