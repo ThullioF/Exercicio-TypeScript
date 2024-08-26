@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": "7c06",
+      "name": "tv",
+      "description": "televisao",
+      "price": "500",
+      "quantity": "1"
+    },
+    {
+      "id": "df1b",
+      "name": "carro v2",
+      "description": "carro legal v2",
+      "price": "500000",
+      "quantity": "2"
+    }
+  ]
+}
