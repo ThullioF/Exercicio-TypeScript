@@ -28,9 +28,9 @@ function ProductList() {
             <ul>
                 {products.map((product) => (
                     <li key={product.id}>
-                        {product.name} - ${product.price} - {product.quantity} units
-                        <Link to={`/edit/${product.id}`}>Edit</Link>
-                        <button onClick={() => handleDelete(product.id)}>Delete</button>
+                        {product.name} - {product.description} - ${product.price} - {product.quantity} units 
+                        <Link to={`/edit/${product.id}`}> Edit </Link>
+                        <button onClick={() => handleDelete(product.id)}> Delete </button>
                     </li>
                 ))}
             </ul>
